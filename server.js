@@ -17,7 +17,7 @@ const PRICE_MAP = {
   armania-075: "price_1TGgyRLICPky10gPifDU09wp",
   labbandonato-0375: "price_1TGgvRLICPkyl0gPoNZD4ELt",
   dissenso-075: "price_1TGgtQLICPkyl0gPLdkcE12M",
-  memento075: "price_1TGgrNLICPkyl0gP0xMwx65l",
+  memento-075: "price_1TGgrNLICPkyl0gP0xMwx65l",
   inceppo-075: "price_1TGgoRLICPkyl0gPCVF3ZyE3",
   esordio-150: "price_1SiWWLICPkyl0gPtZ48zBAZ",
   imprevisto-150: "price_1SiVfLICPkyl0gPMsM851Wc",
