@@ -14,8 +14,8 @@ const DOMAIN = process.env.DOMAIN;
 
 const PRICE_MAP = {
   "legame-075": "price_1TGgzYLICPkyl0gP7vAAKT9Q",
-  "armania-075": "price_1TGgyRLICPkyl0gPifDU09wp",
-  "labbandonato-0375": "price_1TGgvRLICPkyl0gPoNZD4ELt",
+  "armonia-075": "price_1TGgyRLICPkyl0gPifDU09wp",
+  "abbandonato-0375": "price_1TGgvRLICPkyl0gPoNZD4ELt",
   "dissenso-075": "price_1TGgtQLICPkyl0gPLdkcE12M",
   "memento-075": "price_1TGgrNLICPkyl0gP0xMwx65I",
   "inceppo-075": "price_1TGgoRLICPkyl0gPCVF3ZyE3",
