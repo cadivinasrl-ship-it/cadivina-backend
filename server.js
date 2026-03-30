@@ -13,17 +13,17 @@ app.use(express.json());
 const DOMAIN = process.env.DOMAIN;
 
 const PRICE_MAP = {
-  legame-075: "price_1TGgzYLICPkyl0gP7vAAKT9Q",
-  armania-075: "price_1TGgyRLICPky10gPifDU09wp",
-  labbandonato-0375: "price_1TGgvRLICPkyl0gPoNZD4ELt",
-  dissenso-075: "price_1TGgtQLICPkyl0gPLdkcE12M",
-  memento-075: "price_1TGgrNLICPkyl0gP0xMwx65l",
-  inceppo-075: "price_1TGgoRLICPkyl0gPCVF3ZyE3",
-  esordio-150: "price_1SiWWLICPkyl0gPtZ48zBAZ",
-  imprevisto-150: "price_1SiVfLICPkyl0gPMsM851Wc",
-  arturus-075: "price_1SiRxLICPkyl0gPXgirnVHn",
-  imprevisto-075: "price_1SiiQmLICPkyl0gPDds6dS8J",
-  esordio-075: "price_1SiiPgLICPkyl0gPPDQ3D2Ky"
+  "legame-075": "price_1TGgzYLICPkyl0gP7vAAKT9Q",
+  "armania-075": "price_1TGgyRLICPky10gPifDU09wp",
+  "labbandonato-0375": "price_1TGgvRLICPkyl0gPoNZD4ELt",
+  "dissenso-075": "price_1TGgtQLICPkyl0gPLdkcE12M",
+  "memento-075": "price_1TGgrNLICPkyl0gP0xMwx65l",
+  "inceppo-075": "price_1TGgoRLICPkyl0gPCVF3ZyE3",
+  "esordio-150": "price_1SiWWLICPkyl0gPtZ48zBAZ",
+  "imprevisto-150": "price_1SiVfLICPkyl0gPMsM851Wc",
+  "arturus-075": "price_1SiRxLICPkyl0gPXgirnVHn",
+  "imprevisto-075": "price_1SiiQmLICPkyl0gPDds6dS8J",
+  "esordio-075": "price_1SiiPgLICPkyl0gPPDQ3D2Ky"
 };
 
 app.post("/create-checkout-session", async (req, res) => {
