@@ -1,16 +1,16 @@
-const config = require("./config");
+
 
 const express = require("express");
 const cors = require("cors");
 const Stripe = require("stripe");
 
 const app = express();
-const stripe = Stripe(config.STRIPE_SECRET_KEY);
+const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
 
 app.use(cors());
 app.use(express.json());
 
-const DOMAIN = config.DOMAIN;
+const DOMAIN = process.env.DOMAIN;
 
 const PRICE_MAP = {
   LEGAME_075: "price_1TGgzYLICPkyl0gP7vAAKT9Q",
