@@ -98,7 +98,7 @@ app.post('/create-checkout-session', async (req, res) => {
       cancel_url: 'https://cadivina.it/cancel.html'
     });
 
-    res.json({ id: session.id });
+    res.json({ id: session.url });
 
   } catch (error) {
     console.error(error);
