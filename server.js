@@ -40,7 +40,7 @@ const PRODUCTS = {
     name: 'DISSENSO 0,75 L'
   },
   'memento-075': {
-    priceId: 'price_1TGgrNLICPkyl0gP0xMwx65l',
+    priceId: 'price_1TGgrNLICPkyl0gP0xMwx65I',
     unitAmount: 700,
     promoEligible: true,
     equivalent075: 1,
