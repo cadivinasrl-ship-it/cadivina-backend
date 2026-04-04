@@ -40,7 +40,7 @@ const PRODUCTS = {
     name: 'DISSENSO 0,75 L'
   },
   'memento-075': {
-    priceId: 'price_1TGgrNLICPkyl0gP0xMwx65I',
+    priceId: 'price_1TGgrNLICPkyl0gP0xMwx65l',
     unitAmount: 700,
     promoEligible: true,
     equivalent075: 1,
@@ -159,7 +159,7 @@ function getMailTransporter() {
 
 async function handleCompletedCheckout(session) {
   const sessionWithLines = await stripe.checkout.sessions.retrieve(session.id, {
-    expand: ['line_items', 'customer_details']
+    expand: ['line_items']
   });
 
   const customerEmail =
@@ -255,7 +255,8 @@ app.post('/stripe-webhook', express.raw({ type: 'application/json' }), async (re
 
     return res.json({ received: true });
   } catch (error) {
-    console.error('Errore nella gestione del webhook Stripe:', error);
+    console.error('Errore nella gestione del webhook Stripe:', error.message);
+    console.error(error);
     return res.status(500).send('Errore interno webhook');
   }
 });
